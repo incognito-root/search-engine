@@ -11,3 +11,4 @@ export function displayResults(results) {
     resultsContainer.appendChild(li);
   });
 }
+

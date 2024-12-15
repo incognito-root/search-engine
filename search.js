@@ -16,9 +16,15 @@ export function search(query) {
     }
   });
 
+
   return Object.entries(results)
     .sort((a, b) => b[1] - a[1])
     .map(([docID]) => {
       return articles.find((doc) => doc.docID === parseInt(docID));
     });
 }
+
+const dropSearchBox = () => {
+  const box=document.getElementById("search-box");
+  box.classList.add("dropdown");
+};
