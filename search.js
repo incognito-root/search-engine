@@ -1,5 +1,5 @@
 import { invertedIndex } from "./invertedIndex.js";
-import { documents } from "./data.js";
+import { articles } from "./data.js";
 
 export function search(query) {
   const words = query.toLowerCase().split(/\W+/);
@@ -20,6 +20,6 @@ export function search(query) {
   return Object.entries(results)
     .sort((a, b) => b[1] - a[1])
     .map(([docID]) => {
-      return documents.find((doc) => doc.docID === parseInt(docID));
+      return articles.find((doc) => doc.docID === parseInt(docID));
     });
 }

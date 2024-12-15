@@ -7,7 +7,7 @@ export function displayResults(results) {
   }
   results.forEach((result) => {
     const li = document.createElement("li");
-    li.textContent = result.content;
+    li.textContent = result.title;
     resultsContainer.appendChild(li);
   });
 }
