@@ -16,7 +16,6 @@ export function search(query) {
     }
   });
 
-  // Sort results by relevance
   return Object.entries(results)
     .sort((a, b) => b[1] - a[1])
     .map(([docID]) => {
