@@ -17,6 +17,15 @@
         />
         <div id="autocomplete-suggestions"></div>
       </div>
+      <!-- Add this after the search container -->
+      <div class="date-filter">
+        <button id="show-by-date">Show Articles by Date</button>
+        <div id="date-range" style="display: none">
+          <input type="date" id="start-date" />
+          <input type="date" id="end-date" />
+          <button id="filter-by-date">Filter</button>
+        </div>
+      </div>
       <div id="search-history"></div>
       <div class="results-container">
         <ul id="results"></ul>

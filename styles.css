@@ -150,3 +150,38 @@ body {
 .article-content p {
   margin-bottom: 15px;
 }
+
+.date-filter {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#show-by-date {
+  padding: 8px 16px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#date-range {
+  margin-top: 10px;
+}
+
+#date-range input[type="date"] {
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+#filter-by-date {
+  padding: 5px 10px;
+  background-color: #4a7a7a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
