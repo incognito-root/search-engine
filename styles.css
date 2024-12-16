@@ -84,3 +84,32 @@ body {
 #dropdown {
   top: 50px;
 }
+
+#search-history {
+  margin-top: 20px;
+  width: 100%;
+}
+
+#search-history h3 {
+  text-align: center;
+  color: #333;
+}
+
+#search-history ul {
+  list-style: none;
+  padding: 0;
+}
+
+#search-history li {
+  background-color: white;
+  margin: 5px 0;
+  padding: 8px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+#search-history li:hover {
+  background-color: #f0f0f0;
+}
