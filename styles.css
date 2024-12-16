@@ -113,3 +113,40 @@ body {
 #search-history li:hover {
   background-color: #f0f0f0;
 }
+
+.article-page {
+  width: 100%;
+  padding: 20px;
+}
+
+.article-header {
+  margin-bottom: 30px;
+}
+
+.back-button {
+  padding: 8px 16px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background-color: #4a7a7a;
+}
+
+.article-header h1 {
+  color: #333;
+  margin-top: 10px;
+}
+
+.article-content {
+  line-height: 1.6;
+  color: #444;
+}
+
+.article-content p {
+  margin-bottom: 15px;
+}
