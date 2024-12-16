@@ -7,22 +7,21 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-  <div class="main">
-    <div id="engine-name">Coogle</div>
-    <div class="search-container">
-      <input
-              type="text"
-              id="search-box"
-              placeholder="Search for tech articles..."
-
-      />
+    <div class="main">
+      <div id="engine-name">Coogle</div>
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-box"
+          placeholder="Search for tech articles..."
+        />
+        <div id="autocomplete-suggestions"></div>
+      </div>
+      <div class="results-container">
+        <ul id="results"></ul>
+      </div>
     </div>
-    <div class="results-container">
-      <ul id="results"></ul>
-    </div>
-  </div>
 
     <script type="module" src="script.js"></script>
-
   </body>
 </html>
